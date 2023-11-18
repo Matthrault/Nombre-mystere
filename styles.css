@@ -1,0 +1,70 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-image: url("nombre.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(0, 255, 195);
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 35px;
+  max-width: 350px;
+  margin: 100px auto;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  color: rgb(255, 255, 255);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:#f44336;
+  text-align: center;
+}
+
+input {
+  width: calc(100% - 22px); 
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.favorite.styled,
+input[type="reset"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favorite.styled:hover,
+input[type="reset"]:hover {
+  background-color: #030403;
+}
+
+input[type="reset"] {
+  background-color: #f44336;
+  margin-left: 0
+  
+}
+
+
